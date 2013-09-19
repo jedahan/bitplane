@@ -1,4 +1,2 @@
-sfpc_l2l_examples
-=================
-
-code examples from l2l class at SFPC.io
+This app uses the camera to guess what sections are significant.
+For learning binary.
