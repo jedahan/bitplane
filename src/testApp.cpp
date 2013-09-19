@@ -67,6 +67,10 @@ void testApp::draw(){
     ofLine(0,duckheight,ofGetWidth(),duckheight);
     ofSetColor(255,0,255);
     ofLine(bitposition,0,bitposition,ofGetHeight());
+    ofSetColor(255,255,0);
+    for(int i=0;i<bits;i++)
+        ofLine(i*ofGetWidth()/bits,0,i*ofGetWidth()/bits,ofGetHeight());
+
 
     ofDrawBitmapStringHighlight(ofToString(significantdigit), 20, 20);
     ofDrawBitmapStringHighlight(ofToString(number), ofGetWidth()-40, ofGetHeight()-40);
