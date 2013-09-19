@@ -74,6 +74,7 @@ void testApp::draw(){
 
     ofDrawBitmapStringHighlight(ofToString(significantdigit), 20, 20);
     ofDrawBitmapStringHighlight(ofToString(number), ofGetWidth()-40, ofGetHeight()-40);
+    ofDrawBitmapStringHighlight(ofToString(duckheight), ofGetWidth()-40, 20);
 
     for(int i=0;i<bits;i++)
         ofDrawBitmapStringHighlight(ofToString(number >> (7-i) & 0x01), i*ofGetWidth()/bits + (ofGetWidth()/bits/2), ofGetHeight()/2);
