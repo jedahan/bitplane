@@ -45,12 +45,13 @@ bool testApp::sectionSignificant(int section) {
     int pixels=0;
     int width=ofGetWidth()/bits;
     int color=0;
-    for(int j=0; j<duckheight; j++){
-        for(int i = section * width; i < (section+1)*width; i++){
-            pixels += bitPlane.getPixels()[(j*ofGetWidth())+i] > 0 ? 1 : 0;
+    int offset=section * width;
+    for(int y=0; y<duckheight; y++){
+        for(int x = offset; x < offset + width; x++){
+            pixels += bitPlane.getPixels()[x+(y*bitPlane.width)] > 0 ? 1 : -1;
         }
     }
-    return pixels > width*(ofGetHeight()-duckheight)/2;
+    return pixels < 0;
 }
 
 //--------------------------------------------------------------
