@@ -1,4 +1,6 @@
 # Some general ignore patterns
+bin/
+.DS_Store
 build/
 obj/
 *.o

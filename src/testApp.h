@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofGraphics.h"
 
 class testApp : public ofBaseApp{
 
@@ -19,8 +20,13 @@ class testApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-        ofTexture tex;
-        int * temp;
-    
-    
+        ofVideoGrabber grabber;
+        ofImage grabberAsGray;
+        ofImage bitPlane;
+        int duckheight, bitposition, significantdigit;
+        int bits;
+        int number;
+
+        bool sectionSignificant(int section);
+
 };
