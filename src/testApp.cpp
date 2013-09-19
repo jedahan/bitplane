@@ -33,8 +33,7 @@ void testApp::update(){
         number = 0;
         for(int bit=0; bit<bits; bit++)
             if(sectionSignificant(bit))
-                number += 2^bit;
-
+                number += powf(2,bit);
     }
 
     grabberAsGray.update();
