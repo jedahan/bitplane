@@ -56,8 +56,13 @@ bool testApp::sectionSignificant(int section) {
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    
-    bitPlane.draw(0,0);
+    glPushMatrix();
+
+    glTranslated(ofGetWidth(), 0, 0);
+    glScalef(-1, 1, 0);
+        bitPlane.draw(0,0);
+    glPopMatrix();
+
     ofSetColor(0,255,255);
     ofLine(0,duckheight,ofGetWidth(),duckheight);
     ofSetColor(255,0,255);
