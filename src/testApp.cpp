@@ -10,7 +10,6 @@ void testApp::setup(){
     bitposition = ofGetWidth()/2;
     bits = 8;
     number = 0;
-
 }
 
 //--------------------------------------------------------------
