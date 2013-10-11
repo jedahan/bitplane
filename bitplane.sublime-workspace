@@ -1,0 +1,455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ofSet",
+				"ofSetFrameRate"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"roll",
+				"rolledup"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/of-xcode.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sublimecl",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown (Github Flavored)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – Default"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jedahan/Dropbox/code/openFrameworks/apps/myApps/bitplane/src/testApp.cpp",
+		"/Users/jedahan/Dropbox/code/openFrameworks/apps/myApps/bitplane/Project.xcconfig",
+		"/Users/jedahan/Library/Application Support/Sublime Text 3/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/Users/jedahan/Dropbox/code/openFrameworks/apps/myApps/wattCrank/src/testApp.h",
+		"/Users/jedahan/Dropbox/code/openFrameworks/apps/myApps/wattCrank/wattCrank.sublime-project",
+		"/Users/jedahan/Library/Application Support/Sublime Text 3/Packages/User/SublimeClang.sublime-settings",
+		"/Users/jedahan/Library/Application Support/Sublime Text 3/Packages/User/of-xcode.sublime-build",
+		"/Users/jedahan/Library/Application Support/Sublime Text 3/Packages/User/of.sublime-build",
+		"/Users/jedahan/Library/Application Support/Sublime Text 3/Packages/SublimeClang/Default.sublime-keymap",
+		"/Users/jedahan/Dropbox/code/jedahan/SonosColorRooms/sononest/node_modules/sonos-discovery/lib/sonos.js",
+		"/Users/jedahan/Desktop/beautiful",
+		"/Users/jedahan/Dropbox/code/jedahan/collections-api/server.coffee",
+		"/Users/jedahan/Dropbox/code/jedahan/collections-api/lib/parsers/ids.coffee",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/crap/index.html",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/crap/swagger-ui.js",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/static/swagger-ui.js",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/static/index.html",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/server.coffee",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/Procfile",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/package.json",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/node_modules/sonos/lib/sonos.js",
+		"/Users/jedahan/Desktop/sonos.js",
+		"/Users/jedahan/Desktop/overview.md",
+		"/Users/jedahan/Dropbox/code/fakelove/sononest/Readme.md",
+		"/Users/jedahan/Desktop/xbee.md",
+		"/Users/jedahan/Desktop/Data is about your behaviour, not WHY you do thing",
+		"/Users/jedahan/Downloads/MusicBrainzPHP/SonosAPI.php",
+		"/Users/jedahan/Dropbox/code/sfpc/hello.js",
+		"/Users/jedahan/Dropbox/code/sfpc/express.js",
+		"/Users/jedahan/Desktop/Close to the foot of a solitary, snow-capped mount",
+		"/Users/jedahan/Desktop/Offer a Pre-conference Workshop",
+		"/Users/jedahan/Dropbox/code/jedahan/collections-api/lib/parsers/object.coffee",
+		"/Users/jedahan/Dropbox/code/jedahan/collections-scraper/scrape.coffee",
+		"/Users/jedahan/Dropbox/code/jedahan/collections-scraper/test.coffee",
+		"/Users/jedahan/Desktop/scraper.coffee",
+		"/Users/jedahan/Dropbox/code/of_v0.8.0_osx_release/apps/myApps/bitplane/src/testApp.h",
+		"/Users/jedahan/Dropbox/code/of_v0.8.0_osx_release/apps/myApps/bitplane/src/testApp.cpp",
+		"/Users/jedahan/Desktop/branch if equal.md",
+		"/Users/jedahan/Desktop/questions.md",
+		"/Users/jedahan/Downloads/of_v0.8.0_osx_release/apps/myApps/wattCrank/Project.xcconfig",
+		"/Users/jedahan/Desktop/wattCrank videos",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/_tutorials/01_introduction/001_chapter1.asciidoc",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/_tutorials/01_introduction/out",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/_tutorials/01_introduction/ou",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/_tutorials/01_introduction/002_projectGenerator.markdown",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/_tutorials/01_introduction/000_introduction.asciidoc",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/index.html.mako",
+		"/Users/jedahan/Dropbox/code/jedahan/ofSite/readme.md",
+		"/Users/jedahan/Desktop/cpp/loadCollection.cpp",
+		"/Users/jedahan/Desktop/cpp/findBestImageMatch.cpp",
+		"/Users/jedahan/Desktop/cpp/compile.sh",
+		"/Users/jedahan/Desktop/cpp/testLoadCollection.sh",
+		"/Users/jedahan/Desktop/cpp/mysqlImage.cpp",
+		"/Volumes/www/device_dashboard/config.php",
+		"/Users/jedahan/.zshrc",
+		"/Volumes/www/device_dashboard/actions_service.php",
+		"/Volumes/www/device_dashboard/cron.php",
+		"/Users/jedahan/Desktop/AssemblyNotes.md",
+		"/Volumes/www/device_dashboard/includes/functions.php",
+		"/Users/jedahan/Dropbox/code/pedalpower/venue-server/venue-server/raspberrypi/venueserver",
+		"/Users/jedahan/Dropbox/code/pedalpower/venue-server/README.md",
+		"/Users/jedahan/Desktop/SFPC_DOTHIS.MD",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/coffee/comments.coffee",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/coffee/days.coffee",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/coffee/commentsperday.coffee",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/coffee/spread.coffee",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/index.html",
+		"/Users/jedahan/Dropbox/work/metmuseum/QA.md",
+		"/Users/jedahan/Dropbox/work/metmuseum/plain-fancy.md",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/js/spread.js",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/js/days.js",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/js/commentsperday.js",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/js/comments.js",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-data/no_tweets.json",
+		"/Users/jedahan/Dropbox/code/pedalpower/venue-server/venue-server/raspberrypi/bootstrap",
+		"/Users/jedahan/Dropbox/code/pedalpower/venue-server/,",
+		"/Volumes/fanta.asmallorange.com/index.html",
+		"//",
+		"/Users/jedahan/Dropbox/code/jedahan/EPD/libraries/EReader/examples/Album/wifit.py",
+		"/Users/jedahan/Dropbox/code/jedahan/EPD/photobooth/wifit.py",
+		"/Users/jedahan/Downloads/instagram.coffee",
+		"/Users/jedahan/Dropbox/code/metmuseum-medialab/plainorfancy-visualisations/Readme.md",
+		"/Users/jedahan/Desktop/raspbian.md",
+		"/Users/jedahan/Dropbox/code/pedalpower/venue-server/venue-server/raspberrypi/install"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-I",
+			"loadFont",
+			"Isystem",
+			"options",
+			"request",
+			"search",
+			"fs.",
+			"echojs",
+			"sonos",
+			"emit",
+			"CONTENT_DIRECTORY_ENDPOINT",
+			"parseDIDL",
+			"queue",
+			"parseDIDL",
+			"tracks",
+			"responseTag",
+			"request",
+			"CONTENT_DIRECTORY_ENDPOINT",
+			"TRANSPORT_ENDPOINT",
+			"CONTENT_",
+			"current",
+			"paqueryth",
+			"rethink",
+			"title",
+			"name",
+			"exists",
+			"track",
+			"appname",
+			"console.log",
+			"index",
+			"current_index",
+			"100",
+			"O7UVVeQ9LAx16qYCck7nj45vsTGeV3wM4hZfZZBio",
+			"framerate",
+			"\\*int\\*",
+			".html#of",
+			"http://www.openframeworks.cc/documentation/",
+			"ofApp",
+			"ofApp.cpp",
+			"important",
+			"ofC",
+			"DescriptorMatcher",
+			"civil",
+			"if(array_key_exists",
+			"actions_queue",
+			"venuserver",
+			"data",
+			"notstyle",
+			"mystyle",
+			"notmystyle",
+			"mystyle",
+			"plain_or_fancy_without_tweets_as_array",
+			"mystyle",
+			"class",
+			"plain",
+			"totals",
+			"div",
+			"data",
+			"chart",
+			"nested",
+			"chart",
+			"var",
+			"colors",
+			"nodejitsu",
+			"majorak",
+			"Nodejitsu",
+			"svg",
+			"styles",
+			"splash",
+			"length",
+			"csv",
+			"length",
+			"currentValue",
+			"inittab",
+			"foreman",
+			"png",
+			"svg",
+			"container",
+			"h4",
+			"body",
+			"data",
+			"barLabel",
+			"json",
+			"and",
+			"nodejs",
+			"redis",
+			"\"",
+			"'",
+			"9481",
+			"better",
+			"9471",
+			"9377",
+			"’",
+			"http://",
+			"h",
+			"node",
+			" >> $log",
+			"echo -n",
+			"sjdj",
+			"local",
+			"logdir",
+			"logname",
+			"copy",
+			"log",
+			"http",
+			"id_path",
+			"exec",
+			"test.log",
+			"cache",
+			"Portal",
+			"root",
+			"ROOT",
+			"FILE",
+			"console.log",
+			"AmWingInternet",
+			"AmWingInterne",
+			"AmWingInternet",
+			"scriptname",
+			".heartbeat.",
+			"{machine.ip}'",
+			".heartbeat",
+			"heartbeat",
+			"131",
+			"length",
+			"'",
+			"show",
+			"unicornfinder",
+			"cpp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".html#show_of",
+			"link:/documentation/",
+			"testApp",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"project": "bitplane.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
