@@ -1,8 +1,6 @@
-#include "testApp.h"
+#include "ofApp.h"
 
-//--------------------------------------------------------------
-void testApp::setup(){
-
+void ofApp::setup(){
     grabber.initGrabber(640,480);
     grabberAsGray.allocate(640, 480, OF_IMAGE_GRAYSCALE);
     bitPlane.allocate(640, 480, OF_IMAGE_GRAYSCALE);
@@ -12,9 +10,7 @@ void testApp::setup(){
     number = 0;
 }
 
-//--------------------------------------------------------------
-void testApp::update(){
-
+void ofApp::update(){
     grabber.update();
     
     if (grabber.isFrameNew()){
@@ -39,24 +35,9 @@ void testApp::update(){
     bitPlane.update();
 }
 
-//--------------------------------------------------------------
-bool testApp::sectionSignificant(int section) {
-    int pixels=0;
-    int width=ofGetWidth()/bits;
-    int color=0;
-    int offset=section * width;
-    for(int y=0; y<duckheight; y++){
-        for(int x = offset; x < offset + width; x++){
-            pixels += bitPlane.getPixels()[x+(y*bitPlane.width)] > 0 ? 1 : -1;
-        }
-    }
-    return pixels < 0;
-}
-
-//--------------------------------------------------------------
-void testApp::draw(){
+void ofApp::draw(){
+    // flip camera so that its not a mirror
     glPushMatrix();
-
     glTranslated(ofGetWidth(), 0, 0);
     glScalef(-1, 1, 0);
         bitPlane.draw(0,0);
@@ -80,49 +61,29 @@ void testApp::draw(){
     ofSetColor(255,255,255);
 }
 
-//--------------------------------------------------------------
-void testApp::keyPressed(int key){
-
-}
-
-//--------------------------------------------------------------
-void testApp::keyReleased(int key){
-
-}
-
-//--------------------------------------------------------------
-void testApp::mouseMoved(int x, int y ){
-
-}
-
-//--------------------------------------------------------------
-void testApp::mouseDragged(int x, int y, int button){
+void ofApp::mouseDragged(int x, int y, int button){
     bitposition = x;
     duckheight = y;
 }
 
-//--------------------------------------------------------------
-void testApp::mousePressed(int x, int y, int button){
+void ofApp::mousePressed(int x, int y, int button){
     bitposition = x;
     duckheight = y;
 }
 
-//--------------------------------------------------------------
-void testApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseReleased(int x, int y, int button){
     duckheight = y;
 }
 
-//--------------------------------------------------------------
-void testApp::windowResized(int w, int h){
-
-}
-
-//--------------------------------------------------------------
-void testApp::gotMessage(ofMessage msg){
-
-}
-
-//--------------------------------------------------------------
-void testApp::dragEvent(ofDragInfo dragInfo){ 
-
+bool ofApp::sectionSignificant(int section) {
+    int pixels=0;
+    int width=ofGetWidth()/bits;
+    int color=0;
+    int offset=section * width;
+    for(int y=0; y<duckheight; y++){
+        for(int x = offset; x < offset + width; x++){
+            pixels += bitPlane.getPixels()[x+(y*bitPlane.width)] > 0 ? 1 : -1;
+        }
+    }
+    return pixels < 0;
 }
